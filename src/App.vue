@@ -72,7 +72,7 @@ onMounted(() => {
         <a href="https://www.linkedin.com/in/mr-ali-jafari/" target="_blank" aria-label="LinkedIn" class="hover:text-pastelPurple transition"><i class="fab fa-linkedin"></i></a>
         <a href="mailto:riptt89@gmail.com" aria-label="Email" class="hover:text-pastelBlue transition"><i class="fas fa-envelope"></i></a>
       </div>
-      <div class="text-xs text-slate-300 italic text-center md:text-right">Designed with fantasy & anime spirit ✨</div>
+      <div class="text-xs text-slate-300 italic text-center md:text-right">I will immigrate to Japan soon ✨</div>
     </footer>
   </div>
 </template>

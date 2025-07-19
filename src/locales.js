@@ -21,7 +21,7 @@ const messages = {
       achievements: 'Achievements & Certifications',
       interests: 'Interests',
       skillChart: 'Skill Chart',
-      designed: 'Designed with fantasy & anime spirit ✨',
+      designed: 'I will immigrate to Japan soon ✨',
     },
     about: {
       title: 'About Me',
@@ -72,7 +72,7 @@ const messages = {
       achievements: '受賞歴・認定資格',
       interests: '興味・関心',
       skillChart: 'スキルチャート',
-      designed: 'ファンタジーとアニメの心でデザインしました ✨',
+      designed: '私はもうすぐ日本に移住します ✨',
     },
     about: {
       title: '自己紹介',
