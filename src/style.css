@@ -87,6 +87,17 @@ nav.glass {
   }
 }
 
+@media (max-width: 400px) {
+  nav.glass {
+    gap: 0.25rem;
+    padding: 0.75rem 0.25rem;
+    font-size: 0.875rem; 
+  }
+  main {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
 main {
   @apply max-w-4xl mx-auto px-4 w-full;
 }
