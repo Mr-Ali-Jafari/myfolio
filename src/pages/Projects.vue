@@ -1,12 +1,12 @@
 <template>
-  <section class="glass p-8 mt-8">
-    <h2 class="text-2xl font-bold mb-6">{{t('projects.title')}}</h2>
-    <div class="grid gap-6 md:grid-cols-2">
-      <div v-for="project in projects" :key="project.name" class="glass p-6 shadow-glass hover:scale-105 hover:shadow-xl transition-transform duration-300">
-        <h3 class="text-xl font-semibold mb-2">{{ project.name }}</h3>
-        <p class="mb-2">{{ project.desc() }}</p>
-        <div class="mb-2 text-sm text-pastelBlue">{{ project.tech }}</div>
-        <a :href="project.github" target="_blank" class="text-pastelPurple underline hover:text-pastelBlue">{{t('projects.seeGithub')}}</a>
+  <section class="glass p-4 sm:p-6 md:p-8 mt-4 sm:mt-6 md:mt-8">
+    <h2 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-6">{{t('projects.title')}}</h2>
+    <div class="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2">
+      <div v-for="project in projects" :key="project.name" class="glass p-4 sm:p-6 shadow-glass hover:scale-105 hover:shadow-xl transition-transform duration-300">
+        <h3 class="text-base sm:text-xl font-semibold mb-1 sm:mb-2">{{ project.name }}</h3>
+        <p class="mb-1 sm:mb-2 text-xs sm:text-base">{{ project.desc() }}</p>
+        <div class="mb-1 sm:mb-2 text-xs sm:text-sm text-pastelBlue">{{ project.tech }}</div>
+        <a :href="project.github" target="_blank" class="text-pastelPurple underline hover:text-pastelBlue text-xs sm:text-base">{{t('projects.seeGithub')}}</a>
       </div>
     </div>
   </section>
