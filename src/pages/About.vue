@@ -17,16 +17,15 @@
         </ul>
         <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Web Development</h3>
         <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>Django, Django REST Framework, FastAPI, Flask</li>
+          <li>Django, FastAPI,</li>
           <li>SQLAlchemy, Alembic</li>
-          <li>React.js, TailwindCSS, Bootstrap</li>
+          <li>Vue.js, TailwindCSS, Bootstrap</li>
         </ul>
         <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Database Systems</h3>
         <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
           <li>PostgreSQL</li>
           <li>SQLite</li>
           <li>MongoDB</li>
-          <li>Redis</li>
         </ul>
         <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">API Development</h3>
         <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
