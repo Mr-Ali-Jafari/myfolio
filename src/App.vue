@@ -34,7 +34,7 @@ onMounted(() => {
 
 <template>
   <div class="dark min-h-screen bg-navy transition-colors duration-300">
-    <div class="sparkle-overlay">
+    <div class="sparkle-overlay z-0">
       <span v-for="n in 12" :key="n" class="sparkle" :style="sparkleStyle(n)"></span>
     </div>
     <nav class="glass flex flex-col sm:flex-row items-center justify-between px-3 sm:px-6 py-3 sm:py-4 mb-4 sm:mb-8 sticky top-0 z-50 gap-2 sm:gap-0">

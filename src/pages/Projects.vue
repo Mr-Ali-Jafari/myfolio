@@ -71,11 +71,17 @@ const projects = [
     tech: 'Pyqt5,Requests',
     github: 'https://github.com/Mr-Ali-Jafari/kharazmi',
   },
-      {
+    {
     name: 'Article System',
     desc: () => locale.value === 'ja' ? '記事システム' : 'Article System',
     tech: 'Fastapi,Python,sqlite3',
     github: 'https://github.com/Mr-Ali-Jafari/aticle-system',
+  },
+    {
+    name: 'An Platform for Learning English',
+    desc: () => locale.value === 'ja' ? 'クフッドアムース' : 'KhoodAmooz',
+    tech: 'Css3,Python,Streamlit,Spacy',
+    github: 'https://github.com/Mr-Ali-Jafari/KhodAmooz',
   },
 ];
 </script> 
