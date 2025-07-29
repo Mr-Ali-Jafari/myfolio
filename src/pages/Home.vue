@@ -83,11 +83,10 @@
         <li>japanese n1</li>
         <li>
           <a
-            href="../cert/EnglishCertificate.pdf"
-            class="hover:text-pastelBlue text-lg sm:text-2xl"
+            :href="require('@/assets/cert/EnglishCertificate.pdf')"
+            class="hover:text-pastelBlue"
+            >english level b2</a
           >
-            english level b2
-          </a>
         </li>
       </ul>
     </section>
