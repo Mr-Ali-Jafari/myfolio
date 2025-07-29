@@ -83,7 +83,7 @@
         <li>japanese n1</li>
         <li>
           <a
-            href="../assets/cert/EnglishCertificate.pdf"
+            href="https://github.com/Mr-Ali-Jafari/myfolio/blob/main/src/assets/cert/EnglishCertificate.pdf"
             target="_blank"
             class="hover:text-pastelBlue"
             download
