@@ -86,6 +86,7 @@
             href="/assets/cert/EnglishCertificate.pdf"
             target="_blank"
             class="hover:text-pastelBlue"
+            download
           >
             english level b2
           </a>
