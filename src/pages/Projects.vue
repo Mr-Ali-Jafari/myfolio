@@ -33,6 +33,19 @@ const { locale, t } = useI18n();
 
 const projects = [
   {
+    name: "Xorix Kernel",
+    desc: () =>
+      locale.value === "ja" ? "オープンソースカーネル" : "Open Source Kernel",
+    tech: "C++ , C , Assembly , Makefile",
+    github: "https://github.com/Mr-Ali-Jafari/Xorix",
+  },
+  {
+    name: "Blue Coffe",
+    desc: () => (locale.value === "ja" ? "ブルーコーヒー" : "Blue Coffe"),
+    tech: "React.js",
+    github: "https://github.com/Mr-Ali-Jafari/Blue-Coffe",
+  },
+  {
     name: "MediaPlayer",
     desc: () => (locale.value === "ja" ? "メディアプレーヤー" : "MediaPlayer"),
     tech: "C# , WindowsForm",

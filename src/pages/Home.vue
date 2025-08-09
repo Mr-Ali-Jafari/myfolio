@@ -80,7 +80,7 @@
         <li>kharazmi festival (project)</li>
         <li>researching festival (project)</li>
         <li>python bootcamp</li>
-        <li>japanese n1</li>
+        <li>japanese n5</li>
         <li>
           <a
             href="https://github.com/Mr-Ali-Jafari/myfolio/blob/main/src/assets/cert/EnglishCertificate.pdf"
