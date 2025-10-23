@@ -84,6 +84,24 @@ body::before {
   letter-spacing: 0.15em;
 }
 
+/* Lighter kanji on mobile */
+@media (max-width: 768px) {
+  .kanji-char {
+    font-size: 2rem;
+    opacity: 0.4;
+    text-shadow: 
+      0 0 10px rgba(255, 100, 0, 0.5),
+      0 0 20px rgba(255, 150, 0, 0.4),
+      0 0 30px rgba(255, 200, 0, 0.3),
+      1px 1px 2px rgba(0, 0, 0, 0.6);
+    filter: drop-shadow(0 0 8px rgba(255, 150, 0, 0.4));
+  }
+  
+  .kanji-column {
+    opacity: 0.3;
+  }
+}
+
 @keyframes kanjiRise {
   0% {
     bottom: -100%;
