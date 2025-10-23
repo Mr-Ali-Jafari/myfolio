@@ -1,67 +1,74 @@
 <template>
   <section class="glass p-4 sm:p-6 md:p-8 mt-4 sm:mt-6 md:mt-8">
-    <h2 class="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-4">{{t('about.title')}}</h2>
-    <p class="mb-2 sm:mb-4 text-xs sm:text-base">
-      Ali Jafari is a highly skilled and motivated computer science student with deep proficiency in Python and backend web development. His expertise spans a wide range of modern technologies and tools, including:
+    <h2 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6">{{t('about.title')}}</h2>
+    <p class="mb-6 sm:mb-8 text-sm sm:text-base leading-relaxed text-slate-300">
+      Ali Jafari is a computer science student and backend developer with strong expertise in Python, C#, and JavaScript. He builds scalable backend systems and integrates them with game engines like Unity and Godot for AI-driven gameplay and tools.
     </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
-      <div>
-        <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Programming Languages</h3>
-        <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>Python (Advanced)</li>
-          <li>JavaScript (Intermediate)</li>
-          <li>C#</li>
-          <li>Visual Basic</li>
-          <li>HTML/CSS</li>
-          <li>SQL</li>
-        </ul>
-        <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Web Development</h3>
-        <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>Django, FastAPI,</li>
-          <li>SQLAlchemy, Alembic</li>
-          <li>Vue.js, TailwindCSS, Bootstrap</li>
-        </ul>
-        <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Database Systems</h3>
-        <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>PostgreSQL</li>
-          <li>SQLite</li>
-          <li>MongoDB</li>
-        </ul>
-        <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">API Development</h3>
-        <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>RESTful APIs</li>
-          <li>WebSockets</li>
-          <li>JWT Authentication</li>
-          <li>OAuth2</li>
-        </ul>
+    
+    <h3 class="text-base sm:text-lg font-bold mb-4 text-slate-200">Skills</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+      <div class="skill-category">
+        <h4 class="skill-category-title">
+          <i class="fas fa-code"></i>
+          Programming
+        </h4>
+        <p class="skill-category-content">Python, C#, JavaScript, SQL</p>
       </div>
-      <div>
-        <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">DevOps & Deployment</h3>
-        <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>Docker</li>
-          <li>Git & GitHub</li>
-          <li>CI/CD Pipelines</li>
-          <li>Nginx</li>
-          <li>RabbitMQ</li>
-        </ul>
-        <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">AI & Machine Learning</h3>
-        <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>TensorFlow (ML)</li>
-          <li>OpenCV (Computer Vision)</li>
-          <li>Custom AI applications (hand-tracking, face detection, etc.)</li>
-        </ul>
-        <h3 class="font-semibold text-base sm:text-lg mb-1 sm:mb-2">Design & Tools</h3>
-        <ul class="mb-2 sm:mb-4 list-disc list-inside text-xs sm:text-base">
-          <li>Adobe Photoshop & Illustrator</li>
-          <li>VS Code</li>
-          <li>Postman</li>
-          <li>npm, pip</li>
-        </ul>
+
+      <div class="skill-category">
+        <h4 class="skill-category-title">
+          <i class="fas fa-server"></i>
+          Backend
+        </h4>
+        <p class="skill-category-content">Django, FastAPI, REST APIs, WebSockets</p>
+      </div>
+
+      <div class="skill-category">
+        <h4 class="skill-category-title">
+          <i class="fas fa-database"></i>
+          Databases
+        </h4>
+        <p class="skill-category-content">PostgreSQL, SQLite, MongoDB</p>
+      </div>
+
+      <div class="skill-category">
+        <h4 class="skill-category-title">
+          <i class="fas fa-docker"></i>
+          DevOps
+        </h4>
+        <p class="skill-category-content">Docker, Git, CI/CD, Nginx</p>
+      </div>
+
+      <div class="skill-category">
+        <h4 class="skill-category-title">
+          <i class="fas fa-gamepad"></i>
+          Game Dev
+        </h4>
+        <p class="skill-category-content">Unity, Godot, C# scripting, custom AI systems (vision, hand-tracking, etc.)</p>
+      </div>
+
+      <div class="skill-category">
+        <h4 class="skill-category-title">
+          <i class="fas fa-brain"></i>
+          AI / ML
+        </h4>
+        <p class="skill-category-content">TensorFlow, OpenCV</p>
+      </div>
+
+      <div class="skill-category">
+        <h4 class="skill-category-title">
+          <i class="fas fa-tools"></i>
+          Tools
+        </h4>
+        <p class="skill-category-content">VS Code, Postman, Photoshop</p>
       </div>
     </div>
-    <div class="mt-4 sm:mt-8 text-xs sm:text-base">
-      <p>
-        Ali is passionate about building scalable, secure, and innovative software solutions and is constantly learning new technologies to improve his craft. His current focus is on AI research, backend systems, and full-stack web development.
+
+    <div class="mt-6 sm:mt-8 p-4 sm:p-6 rounded-lg border border-slate-600/30 bg-slate-900/30">
+      <p class="text-sm sm:text-base leading-relaxed text-slate-300">
+        <i class="fas fa-lightbulb text-slate-500 mr-2"></i>
+        Currently focused on combining AI and backend logic in game development, especially in interactive systems, gameplay automation, and intelligent NPC behavior.
       </p>
     </div>
   </section>

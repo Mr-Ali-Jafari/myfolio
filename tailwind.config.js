@@ -8,23 +8,35 @@ export default {
   theme: {
     extend: {
       colors: {
-        navy: "#1e293b",
+        navy: "#0f172a",
         slate: {
           950: "#0f172a",
           900: "#1e293b",
+          800: "#334155",
+          700: "#475569",
+          600: "#64748b",
+          500: "#94a3b8",
+          400: "#cbd5e1",
+          300: "#e2e8f0",
+          200: "#f1f5f9",
         },
-        glass: "rgba(30,41,59,0.6)", // glassmorphism base
-        pastelBlue: "#a5b4fc",
-        pastelPurple: "#c4b5fd",
+        glass: "rgba(15,23,42,0.6)",
+        accent: {
+          primary: "#64748b",
+          secondary: "#94a3b8",
+          light: "#cbd5e1",
+        },
       },
       backdropBlur: {
         xs: '2px',
       },
       fontFamily: {
-        sans: ["'Noto Sans JP'", "'Inter'", "sans-serif"],
+        sans: ["'Inter'", "'Roboto'", "'Noto Sans JP'", "sans-serif"],
+        japanese: ["'Noto Sans JP'", "sans-serif"],
+        english: ["'Inter'", "'Roboto'", "sans-serif"],
       },
       boxShadow: {
-        glass: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+        glass: "0 4px 16px rgba(0, 0, 0, 0.3)",
       },
     },
   },

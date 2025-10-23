@@ -7,19 +7,21 @@
         <img
           src="../assets/avatar/avatar.jpg"
           alt="Ali Jafari portrait"
-          class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-4 border-pastelBlue shadow-lg object-cover mb-2 sm:mb-4 md:mb-0"
+          class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-4 object-cover mb-2 sm:mb-4 md:mb-0"
+          style="border-color: #00ffff; box-shadow: 0 0 20px rgba(0, 255, 255, 0.4), 0 0 40px rgba(255, 0, 255, 0.2);"
         />
         <img
           src="../assets/gif/cat.gif"
           alt="Cute cat gif"
-          class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-xl mt-2 sm:mt-4 object-cover border-2 border-pastelPurple shadow"
+          class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-xl mt-2 sm:mt-4 object-cover border-2"
+          style="border-color: #ff00ff; box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);"
         />
       </div>
       <div class="flex-1 w-full">
         <h1 class="text-xl sm:text-2xl md:text-3xl font-bold mb-1 sm:mb-2">
           Ali Jafari
         </h1>
-        <p class="mb-1 sm:mb-2 text-pastelBlue text-sm sm:text-base">
+        <p class="mb-1 sm:mb-2 text-sm sm:text-base" style="color: #a0d8ff;">
           {{ t("home.welcome") }}
         </p>
         <ul class="mb-2 sm:mb-4 space-y-1 text-xs sm:text-sm">
@@ -30,7 +32,7 @@
             <strong>{{ t("home.phone") }}:</strong>
             <a
               href="tel:+989336472907"
-              class="underline hover:text-pastelPurple"
+              class="underline hover:text-slate-300"
               >+98 933 647 2907</a
             >
           </li>
@@ -38,7 +40,7 @@
             <strong>{{ t("home.email") }}:</strong>
             <a
               href="mailto:riptt89@gmail.com"
-              class="underline hover:text-pastelPurple"
+              class="underline hover:text-slate-300"
               >riptt89@gmail.com</a
             >
           </li>
@@ -48,7 +50,10 @@
             href="https://github.com/Mr-Ali-Jafari"
             target="_blank"
             aria-label="GitHub"
-            class="hover:text-pastelBlue text-lg sm:text-2xl"
+            class="text-lg sm:text-2xl transition-colors"
+            style="color: #00ffff; filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.3));"
+            onmouseover="this.style.color='#ff00ff'; this.style.filter='drop-shadow(0 0 8px rgba(255, 0, 255, 0.5))'"
+            onmouseout="this.style.color='#00ffff'; this.style.filter='drop-shadow(0 0 5px rgba(0, 255, 255, 0.3))'"
           >
             <i class="fab fa-github"></i> GitHub
           </a>
@@ -56,14 +61,20 @@
             href="https://www.linkedin.com/in/mr-ali-jafari/"
             target="_blank"
             aria-label="LinkedIn"
-            class="hover:text-pastelPurple text-lg sm:text-2xl"
+            class="text-lg sm:text-2xl transition-colors"
+            style="color: #00ffff; filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.3));"
+            onmouseover="this.style.color='#ff00ff'; this.style.filter='drop-shadow(0 0 8px rgba(255, 0, 255, 0.5))'"
+            onmouseout="this.style.color='#00ffff'; this.style.filter='drop-shadow(0 0 5px rgba(0, 255, 255, 0.3))'"
           >
             <i class="fab fa-linkedin"></i> LinkedIn
           </a>
           <a
             href="mailto:riptt89@gmail.com"
             aria-label="Email"
-            class="hover:text-pastelBlue text-lg sm:text-2xl"
+            class="text-lg sm:text-2xl transition-colors"
+            style="color: #00ffff; filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.3));"
+            onmouseover="this.style.color='#ff00ff'; this.style.filter='drop-shadow(0 0 8px rgba(255, 0, 255, 0.5))'"
+            onmouseout="this.style.color='#00ffff'; this.style.filter='drop-shadow(0 0 5px rgba(0, 255, 255, 0.3))'"
           >
             <i class="fas fa-envelope"></i> Email
           </a>
@@ -85,7 +96,10 @@
           <a
             href="https://github.com/Mr-Ali-Jafari/myfolio/blob/main/src/assets/cert/EnglishCertificate.pdf"
             target="_blank"
-            class="hover:text-pastelBlue"
+            class="underline transition-colors"
+            style="color: #00ffff;"
+            onmouseover="this.style.color='#ff00ff'"
+            onmouseout="this.style.color='#00ffff'"
             download
           >
             english level b2
@@ -114,21 +128,23 @@
       <h2 class="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-4">
         {{ t("home.skillChart") }}
       </h2>
-      <div class="space-y-2 sm:space-y-4">
-        <div v-for="skill in skills" :key="skill.name">
-          <div class="flex justify-between mb-1">
-            <span class="font-medium text-xs sm:text-base">{{
-              skill.name
-            }}</span>
-            <span class="text-xs sm:text-sm text-pastelBlue"
-              >{{ skill.level }}%</span
-            >
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+        <div 
+          v-for="skill in skills" 
+          :key="skill.name"
+          class="skill-card group"
+        >
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
           </div>
-          <div class="w-full bg-slate-900/40 rounded-full h-3 sm:h-4">
-            <div
-              class="h-3 sm:h-4 rounded-full bg-gradient-to-r from-pastelBlue to-pastelPurple transition-all duration-700"
-              :style="{ width: skill.level + '%' }"
-            ></div>
+          <div class="skill-content">
+            <span class="skill-name">{{ skill.name }}</span>
+            <div class="skill-bar-container">
+              <div 
+                class="skill-bar"
+                :style="{ width: skill.level + '%' }"
+              ></div>
+            </div>
           </div>
         </div>
       </div>

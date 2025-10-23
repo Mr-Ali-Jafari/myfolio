@@ -3,25 +3,33 @@
     <h2 class="text-lg sm:text-2xl font-bold mb-2 sm:mb-6">
       {{ t("projects.title") }}
     </h2>
-    <div class="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2">
+    <div class="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="project in projects"
         :key="project.name"
-        class="glass p-4 sm:p-6 shadow-glass hover:scale-105 hover:shadow-xl transition-transform duration-300"
+        class="project-card group"
       >
-        <h3 class="text-base sm:text-xl font-semibold mb-1 sm:mb-2">
+        <div class="project-header">
+          <div class="project-icon">
+            <i class="fas fa-folder-open"></i>
+          </div>
+        </div>
+        <h3 class="project-title">
           {{ project.name }}
         </h3>
-        <p class="mb-1 sm:mb-2 text-xs sm:text-base">{{ project.desc() }}</p>
-        <div class="mb-1 sm:mb-2 text-xs sm:text-sm text-pastelBlue">
-          {{ project.tech }}
+        <p class="project-description">{{ project.desc() }}</p>
+        <div class="project-tech">
+          <i class="fas fa-code text-slate-500"></i>
+          <span>{{ project.tech }}</span>
         </div>
         <a
           :href="project.github"
           target="_blank"
-          class="text-pastelPurple underline hover:text-pastelBlue text-xs sm:text-base"
-          >{{ t("projects.seeGithub") }}</a
+          class="project-github-link"
         >
+          <i class="fab fa-github"></i>
+          {{ t("projects.seeGithub") }}
+        </a>
       </div>
     </div>
   </section>
@@ -43,7 +51,7 @@ const projects = [
     name: "Blue Coffe",
     desc: () => (locale.value === "ja" ? "ブルーコーヒー" : "Blue Coffe"),
     tech: "React.js",
-    github: "https://github.com/Mr-Ali-Jafari/Blue-Coffe",
+    github: "https://github.com/Mr-Ali-Jafari/BlueCoffee",
   },
   {
     name: "MediaPlayer",
