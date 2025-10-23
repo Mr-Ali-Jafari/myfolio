@@ -29,14 +29,6 @@
             <strong>{{ t("home.dob") }}:</strong> 2009-09-04
           </li>
           <li>
-            <strong>{{ t("home.phone") }}:</strong>
-            <a
-              href="tel:+989336472907"
-              class="underline hover:text-slate-300"
-              >+98 933 647 2907</a
-            >
-          </li>
-          <li>
             <strong>{{ t("home.email") }}:</strong>
             <a
               href="mailto:riptt89@gmail.com"
@@ -114,14 +106,11 @@
       <ul
         class="list-disc list-inside space-y-1 sm:space-y-2 text-xs sm:text-base"
       >
-        <li>Artificial Intelligence & Machine Learning</li>
-        <li>Web Development & UI/UX Design</li>
+        <li>Game Development</li>
         <li>Competitive Programming</li>
-        <li>Open Source Contribution</li>
         <li>Language Learning (Japanese, English)</li>
         <li>Reading Tech Blogs & Research Papers</li>
         <li>Playing Chess & Puzzle Games</li>
-        <li>Watching Anime & Cat Videos</li>
       </ul>
     </section>
     <section class="glass p-4 sm:p-6 md:p-8 mt-4 sm:mt-6 md:mt-8">
@@ -161,22 +150,15 @@ const { t } = useI18n();
 
 const skills = [
   { name: "Python", level: 80 },
-  { name: "JavaScript", level: 45 },
-  { name: "C#", level: 35 },
+  { name: "C#", level: 15 },
   { name: "HTML/CSS", level: 70 },
   { name: "BootStrap 5.0", level: 70 },
-  { name: "TailWind", level: 50 },
   { name: "SQL", level: 55 },
-  { name: "Django Template( Jinja2 )", level: 75 },
   { name: "FastAPI", level: 70 },
-  { name: "TensorFlow", level: 35 },
-  { name: "OpenCv", level: 30 },
-  { name: "Tkinter", level: 45 },
   { name: "PyQt5", level: 35 },
-  { name: "React.js", level: 40 },
-  { name: "Vue.js", level: 35 },
-  { name: "MongoDB", level: 35 },
   { name: "Docker", level: 40 },
   { name: "Git/Github", level: 50 },
+  { name: "Godot", level: 50 },
+  { name: "Unity", level: 50 },
 ];
 </script>

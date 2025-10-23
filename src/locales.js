@@ -10,7 +10,7 @@ const messages = {
       lang: '日本語',
     },
     home: {
-      welcome: 'Welcome! I am Ali Jafari, a motivated 11th-grade computer science student passionate about programming, AI, and web development.',
+      welcome: 'Welcome! I am Ali Jafari, a motivated 11th-grade computer science student passionate about programming and game development.',
       name: 'Full Name',
       dob: 'Date of Birth',
       contact: 'Contact Info',

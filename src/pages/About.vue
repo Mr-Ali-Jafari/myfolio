@@ -2,7 +2,7 @@
   <section class="glass p-4 sm:p-6 md:p-8 mt-4 sm:mt-6 md:mt-8">
     <h2 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6">{{t('about.title')}}</h2>
     <p class="mb-6 sm:mb-8 text-sm sm:text-base leading-relaxed text-slate-300">
-      Ali Jafari is a computer science student and backend developer with strong expertise in Python, C#, and JavaScript. He builds scalable backend systems and integrates them with game engines like Unity and Godot for AI-driven gameplay and tools.
+      i'm a game developer with a strong passion for programming and game development. i'm currently focused on combining AI and backend logic in game development, especially in interactive systems, gameplay automation, and intelligent NPC behavior.
     </p>
     
     <h3 class="text-base sm:text-lg font-bold mb-4 text-slate-200">Skills</h3>
@@ -13,23 +13,17 @@
           <i class="fas fa-code"></i>
           Programming
         </h4>
-        <p class="skill-category-content">Python, C#, JavaScript, SQL</p>
+        <p class="skill-category-content">Python, C#, SQL</p>
       </div>
 
-      <div class="skill-category">
-        <h4 class="skill-category-title">
-          <i class="fas fa-server"></i>
-          Backend
-        </h4>
-        <p class="skill-category-content">Django, FastAPI, REST APIs, WebSockets</p>
-      </div>
+
 
       <div class="skill-category">
         <h4 class="skill-category-title">
           <i class="fas fa-database"></i>
           Databases
         </h4>
-        <p class="skill-category-content">PostgreSQL, SQLite, MongoDB</p>
+        <p class="skill-category-content">PostgreSQL</p>
       </div>
 
       <div class="skill-category">
@@ -37,7 +31,7 @@
           <i class="fas fa-docker"></i>
           DevOps
         </h4>
-        <p class="skill-category-content">Docker, Git, CI/CD, Nginx</p>
+        <p class="skill-category-content">Docker, Git, CI/CD</p>
       </div>
 
       <div class="skill-category">
@@ -61,7 +55,7 @@
           <i class="fas fa-tools"></i>
           Tools
         </h4>
-        <p class="skill-category-content">VS Code, Postman, Photoshop</p>
+        <p class="skill-category-content">VS Code, Postman</p>
       </div>
     </div>
 
