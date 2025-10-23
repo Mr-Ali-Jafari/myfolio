@@ -23,7 +23,7 @@ function getRandomKanji() {
 
 function kanjiColumnStyle(n) {
   const left = Math.random() * 95 + '%';
-  const duration = 2 + Math.random() * 1; // 2-3 seconds
+  const duration = 6 + Math.random() * 1; // 2-3 seconds
   const delay = Math.floor(n / 4) * 3 + (Math.random() * 0.5); // every 3 seconds, 4 kanji
   return {
     left: left,
