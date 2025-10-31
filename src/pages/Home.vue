@@ -106,8 +106,6 @@
       <ul
         class="list-disc list-inside space-y-1 sm:space-y-2 text-xs sm:text-base"
       >
-        <li>Game Development</li>
-        <li>Competitive Programming</li>
         <li>Language Learning (Japanese, English)</li>
         <li>Reading Tech Blogs & Research Papers</li>
         <li>Playing Chess & Puzzle Games</li>
@@ -150,15 +148,11 @@ const { t } = useI18n();
 
 const skills = [
   { name: "Python", level: 80 },
-  { name: "C#", level: 15 },
   { name: "HTML/CSS", level: 70 },
   { name: "BootStrap 5.0", level: 70 },
   { name: "SQL", level: 55 },
   { name: "FastAPI", level: 70 },
-  { name: "PyQt5", level: 35 },
   { name: "Docker", level: 40 },
   { name: "Git/Github", level: 50 },
-  { name: "Godot", level: 50 },
-  { name: "Unity", level: 50 },
 ];
 </script>

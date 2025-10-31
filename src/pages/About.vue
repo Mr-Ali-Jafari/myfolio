@@ -2,7 +2,7 @@
   <section class="glass p-4 sm:p-6 md:p-8 mt-4 sm:mt-6 md:mt-8">
     <h2 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6">{{t('about.title')}}</h2>
     <p class="mb-6 sm:mb-8 text-sm sm:text-base leading-relaxed text-slate-300">
-      i'm a game developer with a strong passion for programming and game development. i'm currently focused on combining AI and backend logic in game development, especially in interactive systems, gameplay automation, and intelligent NPC behavior.
+	i'm a Backend Web Developer ......
     </p>
     
     <h3 class="text-base sm:text-lg font-bold mb-4 text-slate-200">Skills</h3>
@@ -34,21 +34,7 @@
         <p class="skill-category-content">Docker, Git, CI/CD</p>
       </div>
 
-      <div class="skill-category">
-        <h4 class="skill-category-title">
-          <i class="fas fa-gamepad"></i>
-          Game Dev
-        </h4>
-        <p class="skill-category-content">Unity, Godot, C# scripting, custom AI systems (vision, hand-tracking, etc.)</p>
-      </div>
 
-      <div class="skill-category">
-        <h4 class="skill-category-title">
-          <i class="fas fa-brain"></i>
-          AI / ML
-        </h4>
-        <p class="skill-category-content">TensorFlow, OpenCV</p>
-      </div>
 
       <div class="skill-category">
         <h4 class="skill-category-title">

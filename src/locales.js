@@ -10,7 +10,7 @@ const messages = {
       lang: '日本語',
     },
     home: {
-      welcome: 'Welcome! I am Ali Jafari, a motivated 11th-grade computer science student passionate about programming and game development.',
+      welcome: 'Welcome! I am Ali Jafari, a motivated 11th-grade computer science student passionate about backend programming.',
       name: 'Full Name',
       dob: 'Date of Birth',
       contact: 'Contact Info',
@@ -25,7 +25,7 @@ const messages = {
     },
     about: {
       title: 'About Me',
-      bio: 'I am an 11th-grade student with a strong passion for computer science, AI, and software development. My goal is to contribute to innovative projects and pursue advanced studies in AI research.',
+      bio: 'I am a backend developer',
       education: 'Educational Background',
       skills: 'Technical Skills',
       languages: 'Language Proficiency',
