@@ -50,7 +50,7 @@
             <i class="fab fa-github"></i> GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/mr-ali-jafari/"
+            href="https://www.linkedin.com/in/ken-dazai/"
             target="_blank"
             aria-label="LinkedIn"
             class="text-lg sm:text-2xl transition-colors"
